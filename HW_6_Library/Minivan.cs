@@ -26,7 +26,7 @@ namespace HW_6
         }
         public new int GetYear()
         {
-            return Year++;
+            return Year + 1;
         }
     }
 }

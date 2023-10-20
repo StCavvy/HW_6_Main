@@ -8,9 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="HW_6_Library">
-      <HintPath>..\HW_6_Library\bin\Debug\net7.0\HW_6_Library.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\HW_6_Library\HW_6_Library.csproj" />
   </ItemGroup>
 
 </Project>
