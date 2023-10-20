@@ -1,10 +1,10 @@
-﻿namespace HW_6_Main
+﻿namespace HW_6
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello, World!");
+            
         }
     }
 }
