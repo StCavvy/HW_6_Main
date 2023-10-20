@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HW
+namespace HW_6
 {
     public class Minivan : Car
     {
@@ -13,6 +13,11 @@ namespace HW
         public Minivan()
         {
             EnginePower = 1100;
+        }
+
+        public override string? GetModelName()
+        {
+            return ModelName;
         }
         public override int GetNumberOfSeats()
         {

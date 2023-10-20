@@ -15,7 +15,7 @@ namespace HW_6
         public int Year { get; set; }
 
 
-        public abstract string GetModelName();
+        public abstract string? GetModelName();
         public virtual int GetNumberOfSeats() { return NumberOfSeats; }
         public int GetYear() { return Year; }
     }
