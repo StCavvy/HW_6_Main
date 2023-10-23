@@ -16,12 +16,12 @@
                 NumberOfSeats = 4,
                 Year = 1999
             };
-            Console.WriteLine($"Minivan 1 : \n{Convert.ToString(minivan1.GetNumberOfSeats())} \n{Convert.ToString(minivan1.GetYear())}");
-            Console.WriteLine($"Minivan 2 : \n{Convert.ToString(minivan1.GetNumberOfSeats())} \n{Convert.ToString(minivan1.GetYear())} \n ");
+            Console.WriteLine($"Minivan 1 : \n{minivan1.GetNumberOfSeats()} \n{minivan1.GetYear()}");
+            Console.WriteLine($"Minivan 2 : \n{minivan2.GetNumberOfSeats()} \n{minivan2.GetYear()} \n ");
 
 
             Console.WriteLine("Additional tasks!");
-            Console.WriteLine("Abstract property : " + Convert.ToString(minivan2.EnginePower) + "\n" + "Abstract method : " + minivan2.GetModelName() + "\n ");
+            Console.WriteLine("Abstract property : " + minivan2.EnginePower + "\n" + "Abstract method : " + minivan2.GetModelName() + "\n ");
             Console.WriteLine("Generic with type Car :");
             CarManager.GetFullCarInfo(minivan1);
             Console.WriteLine("Generic method ShowParam : ");
